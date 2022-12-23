@@ -37,10 +37,13 @@ body {
   /* To Do Section */
   .week {
     display: inline-flex;
+    flex-grow: 3;
+    flex-direction: column;
   }
   
   .row {
     min-height: 200px;
+    flex-wrap:wrap;
     display: flex;
   }
   
@@ -70,6 +73,7 @@ body {
   /* Reminders */
   .reminders {
     background-color: #800020;
+    flex-grow: 2;
   }
   
   .reminders h3 {
