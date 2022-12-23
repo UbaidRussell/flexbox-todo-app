@@ -46,6 +46,7 @@ body {
     flex-wrap:wrap;
     display: flex;
     justify-content: space-around;
+    align-items: center;
   }
   
   .square {
@@ -54,6 +55,7 @@ body {
     height: 125px;
     padding: 10px;
     justify-content: center;
+    align-items: center;
   }
   
   .day.square {
