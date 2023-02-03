@@ -67,6 +67,7 @@ body {
   .task.square {
     background-color: khaki;
     border: 1px solid white;
+    border-radius: 10px;
   }
   
   .task p {
